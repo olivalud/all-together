@@ -96,7 +96,6 @@ public class Usuario extends Pessoa {
   // Verificar se o login é válido
   public boolean verificarLogin() {
     return true;
-
   }
 
   public void fazerLogout() {
@@ -138,7 +137,7 @@ public class Instrutor extends Usuario {
     // Atribuir nota
   }
 
-  // Polimorfismo
+  // Polimorfismo: sobrescrever o método atualizarInfo da classe Usuario
   @Override
   public void atualizarInfo() {
     // Atualizar informações do instrutor
